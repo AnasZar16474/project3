@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+
+
+}
+
+body {
+    height: 3000000px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #F7F7F8;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    padding: 30px 0;
+    font-size: 14px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    background-color: #F7F7F8;
+    margin: auto;
+    width: calc(100% - 324px);
+    
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row .list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+
+
+}
+.row .list ul .home{
+    background-color: #F1F1F3;
+    padding: 14px 24px;
+    border-radius: 8px;
+}
+
+.logo img {
+    background-color: #FF9500;
+    border-radius: 8px;
+    width: 40px;
+    align-items: center;
+}
+
+.header .auth {
+    display: flex;
+    gap: 30px;
+}
+
+.auth .login {
+    padding: 14px 34px;
+    background-color: #FF9500;
+    border-radius: 8px;
+}
+
+
+.auth .signup {
+    display: flex;
+    align-items: center;
+}
+
+sections .hero {
+    margin-top: 166px;
+    position: relative;
+
+}
+
+sections .hero .row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFD;
+    gap: 10px;
+    padding: 14px 15px 14px 10px;
+    border-radius: 11px;
+    border: 1px solid white;
+    width: fit-content;
+    margin: 0 auto;
+
+
+
+}
+
+sections .hero .logo1 {
+    position: absolute;
+    background-color: #F7F7F8;
+    left: 600px;
+    top: 45px;
+    width: 39px;
+    height: 43px;
+    z-index: -10000000000000000000000px;
+
+}
+
+sections .hero .icon {
+    background-color: #FFF4E5;
+    padding: 12px;
+    border-radius: 6px;
+
+}
+
+.row2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+sections {
+    background-color: #FF9500;
+}
+
+sections .hero p {
+    margin-left: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+sections .hero .first-p {
+    font-size: 34px;
+    margin-top: 20px;
+
+}
+
+sections .hero .second-p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+sections .hero .row1 {
+    font-size: 30px;
+}
+
+sections .hero .row1 span {
+    color: #FF9500;
+}
+.auth1{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+   
+  
+}
+.auth1 .explore-courses{
+    padding: 18px 24px;
+    background-color: #FF9500;
+    border-radius: 8px;
+    color: #fff;
+}
+.auth1 .view-pricing{
+    background-color:#FFF;
+    border-radius: 8px;
+    padding: 18px 24px;
+    color: #262626;
+    
+}
+sections .row3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FCFCFD;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 70px;
+   
+}
+sections .row3 .logo2{
+    border-right:1px dashed #F1F1F3;
+    padding: 30px;
+
+}
+sections .row3 .logo3{
+    padding: 30px;
+    border-right:1px dashed #F1F1F3;
+}
+sections .row3 .logo4{
+    padding: 30px;
+    border-right:1px dashed #F1F1F3;
+}
+sections .row3 .logo5{
+    padding: 30px;
+    border-right:1px dashed #F1F1F3;
+}
+sections .row3 .logo6{
+    padding: 30px;
+    border-right:1px dashed #F1F1F3;
+}
+sections .row3 .logo7{
+    padding: 30px;
+    border-right:1px dashed #F1F1F3;
+}
+sections .row3 .logo8{
+    padding: 30px;
+    border-right:1px dashed #F1F1F3;
+}
